@@ -27,21 +27,4 @@
 .row-cols-md-4>* {
     flex: 0 0 auto;
     width: 20%;
-    color: blue;
-}
-
-@media (min-width: 600px) and (max-width: 1024px) {
-    body {
-      font-size: 14px;
-      background-color: #f4f4f4;
-      /* Tablet-specific styles */
-    }
-}
-
-    @media (max-width: 599px) {
-        body {
-          font-size: 12px;
-          background-color: #eaeaea;
-          /* Mobile-specific styles */
-        }
 }
