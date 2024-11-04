@@ -23,3 +23,13 @@
     flex: 0 0 auto;
     width: 20%;
 }
+
+.input-group {
+    display:flex;
+    align-items: center;
+}
+
+.form-control {
+    flex: 1;
+    min-width: 0;
+}
