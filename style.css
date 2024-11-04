@@ -8,11 +8,16 @@
     
     font-size: 50px;
     color: crimson;
-    border: 1px solid black;
-    background-color: darkgreen;
+    /*border: 1px solid black;*/
+    /*background-color: cyan;*/
 }
 .center-nav {
     justify-content: center!important;
+    background-color: rgb(60, 63, 63);
+}
+
+.navbar {
+    padding: 0;
 }
 
 .btn {
@@ -22,14 +27,4 @@
 .row-cols-md-4>* {
     flex: 0 0 auto;
     width: 20%;
-}
-
-.input-group {
-    display:flex;
-    align-items: center;
-}
-
-.form-control {
-    flex: 1;
-    min-width: 0;
 }
