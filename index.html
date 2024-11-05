@@ -117,24 +117,19 @@
     </section>
     <script src="./java.js"></script>
 
-    <!-- Hidden Easter egg trigger -->
-<div id="logo" style="cursor: pointer;">Logo</div>
-
-<script>
-let clickCount = 0;
-document.getElementById('logo').addEventListener('click', function() {
-  clickCount++;
-  if (clickCount === 10) { // Trigger after 10 clicks
-    alert('🎉 Easter Egg Found! You clicked 10 times!');
-    // Easter egg logic goes here
-  }
-});
-</script>
+     <!-- Hidden Easter egg trigger -->
+    <div id="logo" style="cursor: pointer;">.</div>
+    <script>
+      let clickCount = 0;
+      document.getElementById('logo').addEventListener('click', function() {
+        clickCount++;
+        if (clickCount === 10) { 
+          alert(':tada: Easter Egg Found! You clicked 10 times!');
+        }
+      });
+    </script>
 
 </body>
-
-
-
 
 
 
