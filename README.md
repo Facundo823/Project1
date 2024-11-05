@@ -1,12 +1,16 @@
 # Create a To-Do-List application
+
 User Story:
 * As developers, we want to create a To Do List application that is able to store your list items.
 * In this project we are going to work together to create a To-Do-List.
-# Accpeted Criteria
+
+# Accepted Criteria
+
 Criteria:
 * It is done when, we are able to input list items.
 * It is done when, we can edit list items.
 * It is done when, we can delete list items when completed.
+
 ## Notes:
 Refer to documentaion/code:
 Modal:
